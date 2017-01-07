@@ -8,7 +8,7 @@ export default class App extends Component {
     return (
       <div className="App">
         <Cover
-          text="Welcome to my Minecraft Website!"
+          text="Hello world!"
           textColor={`#${this.getCoverColor()}`}
         />
         <TopNav location={!!location ? (!location.pathname.split('/')[1] ? '' : location.pathname.split('/')[1]) : ''} />
